@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Tajwid dan Juz’Amma</string>
+    <string-array name="datajuz">
+        <item>SURAH AN NAAS | الناس</item>
+        <item>SURAH AL FALAQ | الفلق</item>
+        <item>SURAH AL IKHLASH | الإخلاص </item>
+        <item>SURAH AL LAHAB | اللهب</item>
+        <item>SURAH AN NASHR | النصر</item>
+        <item>SURAH AL KAFIRUN | الكافرون</item>
+        <item>SURAH AL KAUTSAR | الكوثر </item>
+        <item>SURAH AL MAA’UUN | الماعون</item>
+        <item>SURAH QURAISY | قريش</item>
+        <item>SURAH AL FIIL | الفيل</item>
+        <item>SURAH AL HUMAZAH | الهمزة</item>
+        <item>SURAH AL ‘ASHR | العصر </item>
+        <item>SURAH AT TAKAATSUR | التكاثر</item>
+        <item>SURAH AL QAARI’AH | القارعة</item>
+        <item>SURAH AL ‘AADIYAH | العاديات</item>
+        <item>SURAH AZ ZALZALAH | اَلزَّلْزَلَة</item>
+        <item>SURAH AL BAYYINAH | الْبَيِّنَة</item>
+        <item>SURAH AL QADR     | الْقَدْر</item>
+        <item>SURAH AL ‘ALAQ    | الْعَلَق</item>
+        <item>SURAH AT TIN      | اَلتِّيْن</item>
+        <item>SURAH AL INSYIRAH | الشرح</item>
+        <item>SURAH AD DHUHA    | اَلضُّحَىٰ</item>
+        <item>SURAH AL LAIL     | اَللَّيْل</item>
+        <item>SURAH ASY SYAMS   | اَلشَّمْس</item>
+        <item>SURAH AL BALAD    | اَلْبَلَد</item>
+        <item>SURAH AL FAJR     | اَلْفَجْر</item>
+        <item>SURAH AL GHASYIYAH| الْغَاشِيَة</item>
+        <item>SURAH AL A‘LA     | الْأَعْلٰى</item>
+        <item>SURAH AT TARIQ    | الطَّارِق</item>
+        <item>SURAH AL BURUJ    | الْبُرُوْج</item>
+        <item>SURAH AL INSYIQAQ | اَلْإِنْشِقَاق</item>
+        <item>SURAH AL MUTHAFFIFIN | اَلْمُطَفِّفِيْن</item>
+        <item>SURAH AL INFITHAR | الْإِنْفِطَار</item>
+        <item>SURAH AT TAKWIR   | اَلتَّكْوِيْر</item>
+        <item>SURAH ‘ABASA      | عَبَس</item>
+        <item>SURAH AN NAZI‘AT  | اَلنَّازِعَات</item>
+        <item>SURAH AN NABA     | النَّبَإ</item>
+
+    </string-array>
+</resources>

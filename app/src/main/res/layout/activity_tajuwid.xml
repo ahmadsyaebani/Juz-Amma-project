@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.amikom.app.ActivityTajuwid"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/qq"
+        android:layout_marginTop="40dp"/>
+
+
+
+        <Button
+            android:id="@+id/buttonIdzhar"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="Idzhar Halqi "
+            android:textColor="@color/suci"
+            android:background="@android:color/holo_green_light"/>
+
+        <Button
+            android:id="@+id/buttonBighunah"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonIdzhar"
+            android:layout_alignStart="@+id/buttonIdzhar"
+            android:layout_alignLeft="@+id/buttonIdzhar"
+            android:text="Idgham Bighunah"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/suci"
+            android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/buttonBillagunah"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonBighunah"
+        android:layout_alignStart="@+id/buttonBighunah"
+        android:layout_alignLeft="@+id/buttonBighunah"
+        android:background="@android:color/holo_green_light"
+        android:text="Idgham Billagunah"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/suci" />
+
+        <Button
+            android:id="@+id/buttonIkhfa"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonBillagunah"
+            android:layout_alignStart="@+id/buttonBillagunah"
+            android:layout_alignLeft="@+id/buttonBillagunah"
+            android:text="Ikhfa'"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@color/suci"/>
+
+        <Button
+            android:id="@+id/buttonIqlab"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonIkhfa"
+            android:layout_alignStart="@+id/buttonIkhfa"
+            android:layout_alignLeft="@+id/buttonIkhfa"
+            android:text="Iqlab'"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/suci"
+            android:background="@android:color/holo_green_light"/>
+
+
+</RelativeLayout>

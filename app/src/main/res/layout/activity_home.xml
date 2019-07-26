@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".HomeActivity"
+    android:background="@drawable/background">
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/menuhome"
+        android:layout_marginTop="40dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@drawable/jusamma_btn" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="295dp"
+            app:srcCompat="@drawable/tajuid_btn" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            app:srcCompat="@drawable/kuis_btn" />
+
+        <Button
+            android:id="@+id/btn_juzamma"
+            android:layout_width="380dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="310dp"
+            android:text=""
+            android:background="#00ffffff"/>
+
+        <Button
+            android:id="@+id/btn_tajuwid"
+            android:layout_width="380dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="385dp"
+            android:text=""
+            android:background="#00ffffff"/>
+
+        <Button
+            android:id="@+id/btn_tips"
+            android:layout_width="380dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="455dp"
+            android:text=""
+            android:background="#00ffffff"/>
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>
